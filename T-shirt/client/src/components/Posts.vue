@@ -18,7 +18,7 @@ import PostsService from '@/services/PostsService'
 import Tshirt from '@/components/Tshirt'
 import imagemap from '@/components/imagemap'
 import Navigation from '@/components/navbar'
-import page from '@/components/page'
+
 
 export default {
   name: 'posts',
@@ -27,7 +27,7 @@ export default {
   	"Tshirt":Tshirt,
   	"imagemap":imagemap,
   	"Navigation":Navigation,
-  	"pagination": page
+  	
   },
   data () {
     return {
